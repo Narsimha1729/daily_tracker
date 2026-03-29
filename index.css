@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; background: #07070e; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0a0a12; }
+::-webkit-scrollbar-thumb { background: #2a2a3d; border-radius: 3px; }
+.cb-cell { transition: all .12s; }
+.cb-cell:hover { opacity: .75; transform: scale(1.15); }
+.nav-btn { transition: all .18s; }
+input:focus { outline: none; border-color: #6366f1 !important; }
+.arrow-btn:hover { background: #1e1e30 !important; }
+.action-btn:hover { opacity: .82; }
+.bar-track { transition: width .6s cubic-bezier(.34,1.56,.64,1); }
+.habit-row:hover td { background: #0c0c1a !important; }
